@@ -1,5 +1,6 @@
-package com.topnews.arindom.network
+package com.topnews.arindom.repositories
 
+import com.topnews.arindom.modals.TopHeadlinesResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

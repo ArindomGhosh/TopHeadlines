@@ -9,7 +9,7 @@ import com.topnews.arindom.R
 import com.topnews.arindom.ViewModalFactory
 import com.topnews.arindom.adapters.CountryListAdapter
 import com.topnews.arindom.common.BaseActivity
-import com.topnews.arindom.network.CountryIsoMap
+import com.topnews.arindom.modals.CountryIsoMap
 import com.topnews.arindom.viewmodals.CountryISOCodeViewModal
 import kotlinx.android.synthetic.main.activity_main.*
 import org.kodein.di.generic.instance

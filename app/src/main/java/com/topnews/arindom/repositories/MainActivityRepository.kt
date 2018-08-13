@@ -1,6 +1,8 @@
-package com.topnews.arindom.network
+package com.topnews.arindom.repositories
 
-class MainActivityAPI {
+import com.topnews.arindom.modals.CountryIsoMap
+
+class MainActivityRepository {
     fun getCountryList() = listOf(CountryIsoMap("India", "IN"),
             CountryIsoMap("Australia", "AU"),
             CountryIsoMap("United States", "US"),

@@ -1,4 +1,4 @@
-package com.topnews.arindom.network
+package com.topnews.arindom.repositories
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

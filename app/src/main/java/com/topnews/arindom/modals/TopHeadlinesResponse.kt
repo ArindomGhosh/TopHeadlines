@@ -1,4 +1,4 @@
-package com.topnews.arindom.network
+package com.topnews.arindom.modals
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

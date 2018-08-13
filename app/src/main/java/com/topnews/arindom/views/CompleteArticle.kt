@@ -7,7 +7,7 @@ import com.topnews.arindom.R
 import com.topnews.arindom.common.BaseActivity
 import com.topnews.arindom.common.ImageLoader
 import com.topnews.arindom.databinding.ActivityCompleteArticleBinding
-import com.topnews.arindom.network.ArticleNode
+import com.topnews.arindom.modals.ArticleNode
 
 class CompleteArticle : BaseActivity() {
     private val mImageLoader by lazy { ImageLoader(this) }

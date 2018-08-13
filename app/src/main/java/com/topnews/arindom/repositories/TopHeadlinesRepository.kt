@@ -1,10 +1,11 @@
-package com.topnews.arindom.network
+package com.topnews.arindom.repositories
 
+import com.topnews.arindom.modals.TopHeadlinesResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class TopHeadlinesApi {
+class TopHeadlinesRepository {
     fun getTopHeadLines(countryCode: String, pages: Int, listener: TopHeadLinesAPIListener<TopHeadlinesResponse?, String>) {
         ApiServices.getInteface()
                 .topHeadlinesApi(countryCode, NEWS_API_KEY, pages)

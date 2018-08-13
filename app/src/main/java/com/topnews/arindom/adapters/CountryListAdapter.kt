@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import com.topnews.arindom.R
 import com.topnews.arindom.databinding.ItemCountryViewBinding
 
-import com.topnews.arindom.network.CountryIsoMap
+import com.topnews.arindom.modals.CountryIsoMap
 
 class CountryListAdapter(private var mCountryList: List<CountryIsoMap>) : RecyclerView.Adapter<CountryListAdapter.CountryViewHolder>() {
     private var mOnCountrySelectListener: OnCountrySelectListener? = null

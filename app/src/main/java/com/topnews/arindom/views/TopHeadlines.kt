@@ -15,8 +15,8 @@ import com.topnews.arindom.adapters.PageinationListener
 import com.topnews.arindom.adapters.TopHeadLinesListAdapter
 import com.topnews.arindom.common.BaseActivity
 import com.topnews.arindom.common.ImageLoader
-import com.topnews.arindom.network.ArticleNode
-import com.topnews.arindom.network.CountryIsoMap
+import com.topnews.arindom.modals.ArticleNode
+import com.topnews.arindom.modals.CountryIsoMap
 import com.topnews.arindom.viewmodals.TopHeadlinesViewModal
 import kotlinx.android.synthetic.main.activity_top_headlines.*
 import org.kodein.di.generic.instance

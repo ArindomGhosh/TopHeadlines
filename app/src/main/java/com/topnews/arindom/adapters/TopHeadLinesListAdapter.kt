@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import com.topnews.arindom.R
 import com.topnews.arindom.common.ImageLoader
 import com.topnews.arindom.databinding.ItemsArticlesViewBinding
-import com.topnews.arindom.network.ArticleNode
+import com.topnews.arindom.modals.ArticleNode
 
 class TopHeadLinesListAdapter(private val mImageLoader: ImageLoader, private var mTopHeadlineList: MutableList<ArticleNode>) : RecyclerView.Adapter<TopHeadLinesListAdapter.TopHeadLinesviewHolder>() {
     private var mOnArticleClickListener: OnArticleClickListener? = null
